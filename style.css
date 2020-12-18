@@ -1,0 +1,8 @@
+p {
+	color: #FF8080;
+	padding: 10px 0;
+	margin: 10px;
+	font-family: georgia;
+	font-size: 1em;
+	border: 10px dashed green;
+}
