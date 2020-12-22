@@ -1,0 +1,97 @@
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: relative;
+    background-color: gray;
+    padding: 0;
+}
+
+.navbar * {
+    color: white;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.navbar-header {
+    width: 100%;
+    position: relative;
+    padding: 0 10px;
+}
+
+.navbar-header>button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#collapse-elements {
+    /*margin-top:1em;*/
+    background-color: silver;
+}
+
+#collapse-elements ul li * {
+    float: right;
+    width: 100%;
+    text-align: center;
+    text-decoration-style: none;
+    padding: 10px 0;
+}
+
+.navbar hr {
+    width: 100%;
+    background-color: #777;
+    padding: 1px 0;
+    margin: 0;
+    border: 0;
+}
+
+.row * {
+    padding: 10px 20px;
+    margin: 10px 40px;
+    background-color: gray;
+}
+
+/*** Menu titles ***/
+.row h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: block;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+footer {
+    width: 100%
+}
+
+#toTop {
+    margin: auto;
+    text-align: center;
+}
+
+#toTop a {
+    background-color: gray;
+    padding: 3px 8px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#toTop a:hover {
+    color: black;
+}

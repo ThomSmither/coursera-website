@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+}
+
+
+/*** Desktop version ***/
+@media (min-width: 992px) {
+	.col-desktop {
+		width: 31.333%;
+		margin: 1%;
+	}
+}
+
+/*** Tablet view ***/
+@media (min-width: 768px) and (max-width: 992px) {
+	.col-tab-1, .col-tab-2 {
+		width: 48%;
+		margin: 1%;
+	}
+
+	.col-tab-3 {
+		width: 98%;
+		margin: 1%;
+		clear: left;
+	}
+}
+
+/*** Mobile view ***/
+@media (max-width: 767px) {
+	.col-mob {
+		width: 98%;
+		margin: 1%;
+	}
+}
+
+/*** Container for column elements ***/
+.row {
+	margin: 10px;
+	overflow: hidden;
+}
+
+/*** Section titles ***/
+.title {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 2px 10px;
+	font-size: 1.25em;
+}
+
+#title-1 {
+	background-color: #A7C9F2;
+	border: black solid 1px;
+}
+
+#title-2 {
+	background-color: #F6783F;
+	color: white;
+	border: black solid 1px;
+}
+
+#title-3 {
+	background-color: #23FF3C;
+	border: black solid 1px;
+}
+
+/*** Column boxes ***/
+.col {
+	position: relative;
+	padding: 27px 10px 10px 10px;
+	background-color: #888888;
+	float: left;
+	height: 100%;
+	border: black solid 1px;
+}
+
+/*** Other styling ***/
+h1 {
+	font-size: 1.75em;
+	text-align: center;
+}
+
+.col-md-4 {
+	margin: 0 500px;
+}
